@@ -1,9 +1,9 @@
-import { Navbar } from "@/components/global/navbar/Navbar";
+import { Navbar } from "@/components/Global/Navbar/Navbar";
 import Image from "next/image";
 import Link from "next/link";
 
 import HeroImg from "../../public/men_with_ecobag_say_hi_with_hands.svg";
-import { DisplayData } from "@/components/home/displayData/DisplayData";
+import { DisplayData } from "@/components/Home/DisplayData/DisplayData";
 
 export default function Home() {
 	return (
