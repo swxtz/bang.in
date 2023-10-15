@@ -4,6 +4,7 @@ import Link from "next/link";
 
 import HeroImg from "../../public/men_with_ecobag_say_hi_with_hands.svg";
 import { DisplayData } from "@/components/Home/DisplayData/DisplayData";
+import { BestServices } from "@/components/Home/BestServices/BestServices";
 
 export default function Home() {
 	return (
@@ -15,7 +16,7 @@ export default function Home() {
 
 				<div className="mx-56 mt-24 grid grid-cols-2 gap-[92px]">
 					<div className="">
-						<h3 className="text-white text-[28px] font-semibold">
+						<h3 className="text-white text-2.5xl font-semibold">
 							Hi, Folks!
 						</h3>
 						<div className="min-w-[456px] max-w-[730px]">
@@ -61,6 +62,10 @@ export default function Home() {
 				<DisplayData number="20" data="Waste Bank" />
 				<DisplayData number="50" data="Products" />
 				<DisplayData number="150" data="Course Education" />
+			</div>
+
+			<div className="">
+				<BestServices />
 			</div>
 		</main>
 	);

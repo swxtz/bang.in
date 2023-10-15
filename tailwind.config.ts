@@ -44,6 +44,10 @@ const config: Config = {
 					900: "#07080a",
 				},
 			},
+
+			fontSize: {
+				"2.5xl": "1.75rem"
+			}
 		},
 	},
 	plugins: [],
