@@ -64,9 +64,11 @@ export default function Home() {
 				<DisplayData number="150" data="Course Education" />
 			</div>
 
-			<div className="">
+			<div className="mt-40">
 				<BestServices />
 			</div>
+
+			<div className="mt-40"></div>
 		</main>
 	);
 }
