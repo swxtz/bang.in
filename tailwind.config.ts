@@ -9,7 +9,7 @@ const config: Config = {
 	theme: {
 		extend: {
 			colors: {
-				"vs-green": {
+				"green": {
 					100: "#cce1e2",
 					200: "#99c3c6",
 					300: "#67a6a9",
@@ -20,6 +20,18 @@ const config: Config = {
 					800: "#002a2d",
 					900: "#001516",
 				},
+				cream: {
+					100: "#fffff8",
+					200: "#fffff1",
+					300: "#ffffeb",
+					400: "#ffffe4",
+					500: "#ffffdd",
+					600: "#ccccb1",
+					700: "#999985",
+					800: "#666658",
+					900: "#33332c",
+				},
+
 			},
 		},
 	},

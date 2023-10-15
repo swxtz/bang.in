@@ -13,13 +13,13 @@ const link = tv({
 	variants: {
 		textColor: {
 			grey: "text-gray-700 hover:text-gray-800",
-			green: "text-vs-green-500 font-semibold hover:text-vs-green-400",
-			login: "px-5 py-2 rounded-xl font-semibold text-base bg-vs-green-500 hover:bg-vs-green-400 text-white"
+			green: "text-green-500 font-semibold hover:text-green-400",
+			login: "px-5 py-2 rounded-xl font-semibold text-base bg-green-500 hover:bg-green-400 text-white"
 		},
 	},
 });
 
-// font-semibold text-xl text-vs-green-500
+// font-semibold text-xl text-green-500
 export function NavButtons({
 	children,
 	href,
